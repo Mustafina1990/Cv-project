@@ -119,6 +119,33 @@ p {
   font-family: var(--fontPoppins);
 }
 
+@media (max-width: 767px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .helloText {
+    font-size: 33px;
+    padding: 0; 
+  }
+
+  .img-fluid {
+    display: none;
+  }
+
+  .center {
+    text-align: center;
+  }
+}
+
 @media (min-width: 576px) {
   .col-sm-4 {
     flex: 0 0 auto;
